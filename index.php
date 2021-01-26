@@ -13,5 +13,9 @@ if (!isset($_SESSION['username'])) {
 </head>
 <body>
 Đăng nhập thành công !
+<br><br>
+<?php
+session_destroy();
+?>
 </body>
 </html>
